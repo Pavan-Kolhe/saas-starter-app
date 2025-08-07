@@ -1,0 +1,17 @@
+#FEATURES::
+Event Driven Architecture
+Decouple Authentication
+SQL - Neon Postgresql
+
+#services used
+
+
+# commands used 
+npx create-next-app@latest  
+npm install prisma --save-dev
+npx prisma
+npx prisma init --datasource-provider postgresql --output ../generated/prisma
+ npx prisma migrate dev --name init
+ npm install @prisma/client
+ npx prisma generate
+ 
